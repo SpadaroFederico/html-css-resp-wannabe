@@ -134,3 +134,45 @@ img {
         width: 100%;
     }
  }
+
+ /* RESPONSIVE PHONE */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        padding-bottom: 50px;
+        width: 100%; 
+    }
+
+    .steps .col {
+        padding-bottom: 50px;
+        width: 100%;   
+    }
+
+    .why-us .col-left {
+       padding-bottom: 50px;
+       width: 100%;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+
+    .why-us {
+        background-color: #222222;
+        padding-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .steps {
+        padding-bottom: 0;
+        margin-bottom: 0;    
+    }
+
+}
